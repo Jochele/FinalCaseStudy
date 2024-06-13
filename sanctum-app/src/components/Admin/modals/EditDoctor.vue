@@ -20,10 +20,22 @@
                 Surgeons
               </option>
               <option
-                value="Physician"
-                :selected="this.$store.state.doctor.type == 'Physician'"
+                value="Psychiatrists"
+                :selected="this.$store.state.doctor.type == 'Psychiatrists'"
               >
-                Physician
+              Psychiatrists
+              </option>
+              <option
+                value="Opthalmologist"
+                :selected="this.$store.state.doctor.type == 'Opthalmologist'"
+              >
+              Opthalmologist
+              </option>
+              <option
+                value="Neurologist"
+                :selected="this.$store.state.doctor.type == 'Nuerologist'"
+              >
+              Nuerologist
               </option>
             </select>
           </div>

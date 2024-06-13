@@ -83,7 +83,7 @@
         <div class="modal-footer">
           <button class="btn-secondary" @click="CloseModal()">Close</button>
           <button type="button" @click="EditPatient()" class="btn btn-primary">
-            Edit
+            Update
           </button>
         </div>
       </div>

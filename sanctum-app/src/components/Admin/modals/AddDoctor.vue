@@ -17,7 +17,9 @@
                   Select Type
                 </option>
                 <option value="Surgeons">Surgeons</option>
-                <option value="Physician">Physician</option>
+                <option value="Physician">Psychiatrists</option>
+                <option value="Physician">Opthalmologist</option>
+                <option value="Physician">Neurologist</option>
               </select>
               <small class="text-danger" v-if="errors.type">{{
                 errors.type[0]

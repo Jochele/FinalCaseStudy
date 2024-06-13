@@ -52,7 +52,7 @@
               class="btn-primary"
               @click="editMedicalRecord(record.medical_id)"
             >
-              Edit
+              Update
             </button>
           </div>
         </form>
