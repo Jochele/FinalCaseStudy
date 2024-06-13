@@ -94,14 +94,15 @@ export default {
 #viewMedical .patient-information {
   margin-top: 20px;
   padding: 10px;
-  background-color: rgb(196, 223, 255);
+  background: rgb(98, 207, 142);
 }
+
 .modal-body {
-  background: bisque;
+  background: rgb(66, 112, 46);
 }
+
 .modal-footer{
-  background-color: bisque
-  ;
+  background-color: rgb(88, 144, 58);
 }
 
 #viewMedical .patient-information p {
